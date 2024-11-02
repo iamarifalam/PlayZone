@@ -1,0 +1,48 @@
+<!-- Hero Section with Carousel -->
+<section class="hero">
+    <div class="carousel">
+        <div class="carousel-slide active">
+            <h1>Experience Real Fun, Real Rewards!</h1>
+            <p>Dive into the ultimate gaming world where every moment counts!</p>
+            <a href="#" class="hero-btn">Download the App</a>
+        </div>
+        <div class="carousel-slide">
+            <h1>Join Tournaments and Win Big!</h1>
+            <p>Compete with players worldwide and earn exciting prizes.</p>
+            <a href="#" class="hero-btn">Play Now</a>
+        </div>
+    </div>
+    <div class="carousel-controls">
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
+    </div>
+</section>
+
+<!-- Games Section with Filterable Gallery -->
+<section id="games" class="games-section">
+    <h2>Top Games in PlayZone</h2>
+    <div class="filter-buttons">
+        <button onclick="filterGames('all')" class="active">All</button>
+        <button onclick="filterGames('puzzle')">Puzzle</button>
+        <button onclick="filterGames('strategy')">Strategy</button>
+        <button onclick="filterGames('adventure')">Adventure</button>
+    </div>
+    <div class="games-container">
+        <div class="game-card" data-category="puzzle">
+            <img src="game1.jpg" alt="Puzzle Game">
+            <h3>Puzzle Master</h3>
+            <p>Test your puzzle-solving skills!</p>
+        </div>
+        <div class="game-card" data-category="strategy">
+            <img src="game2.jpg" alt="Strategy Game">
+            <h3>Strategy King</h3>
+            <p>Show your tactical expertise!</p>
+        </div>
+        <div class="game-card" data-category="adventure">
+            <img src="game3.jpg" alt="Adventure Game">
+            <h3>Adventure Quest</h3>
+            <p>Embark on thrilling adventures!</p>
+        </div>
+        <!-- Add more games as needed -->
+    </div>
+</section>
